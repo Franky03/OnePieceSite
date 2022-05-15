@@ -65,6 +65,8 @@ main{
 }
 
 .selecao-de-personagens .personagem-grande .nome h2{
+    -webkit-text-stroke-width: 1.5px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
     color: var(--cor-padrao);
     font-family: 'command', sans-serif;
     position: absolute;
